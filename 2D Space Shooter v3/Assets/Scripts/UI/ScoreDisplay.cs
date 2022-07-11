@@ -23,7 +23,7 @@ public class ScoreDisplay : UIelement
     {
         if (displayText != null)
         {
-            displayText.text = "Score: \n" + GameManager.score.ToString();
+            displayText.text = GameManager.score.ToString();
         }
     }
 
